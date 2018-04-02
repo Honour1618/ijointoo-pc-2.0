@@ -1,0 +1,222 @@
+/*
+ *
+ * 个人中心 ~ 我的项目 ~ 团队介绍
+ *
+ */
+.content {
+	margin-top: 20px;
+}
+b {
+	display: inline-block;
+	width: 8px;
+    color: #f02121;
+    margin-right: 6px;
+}
+.form-horizontal {
+	position: relative;
+}
+.myCrowdfunds{
+	background: #fff;
+	width: 924px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	padding: 46px;
+	margin-bottom: 116px;
+}
+.procedure {
+	text-align:center;
+}
+.example{
+    position: absolute;
+    bottom: -34px;
+    right: -24px;
+    z-index: 999;
+    color: #33c69b;
+    font-size: 16px;
+}
+#jumpNext {
+	position: absolute;
+    bottom: -34px;
+    right: 29px;
+    z-index: 999;
+    color: #33c69b;
+    font-size: 16px;
+    cursor: pointer;
+}
+.info_main{
+	position:fixed;
+	top:109px;
+	left:50%;
+	z-index:99999;
+	color:#f74a3d;
+	background:#fff;
+	border-radius:0 0 10px 10px;
+    width: 280px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-left:-140px;
+    font-size: 16px;
+    box-shadow: 0px 3px 3px rgba(9,4,2,0.12);
+    -webkit-box-shadow: 0px 3px 3px rgba(9,4,2,0.12);
+    -ms-box-shadow: 0px 3px 3px rgba(9,4,2,0.12);
+    -o-box-shadow: 0px 3px 3px rgba(9,4,2,0.12);
+}
+/* 基础信息部分开始 */
+.colorChange{
+	color:#333;
+	overflow:hidden;
+}
+.colorChange label {
+	font-size: 14px;
+	font-weight: normal;
+	margin-right: 23px;
+}
+.colorChange .info{
+	margin:0;
+	line-height:36px;
+	float:left;
+}
+.brief_title {
+	display: inline-block;
+}
+#tfup_icon{
+	margin-left:47px;
+	float:none;
+	padding:0 33px;
+	width:auto;
+	background:url("../../../../file/tf/tfup/images/tfup_icon.png") left center no-repeat;
+	background-size:21px 21px;
+}
+#sign{
+	padding:0 10px;
+	float:none;
+}
+.registration ul li.info{
+    margin: 30px 0;
+	position:relative;
+}
+.info select {
+	width: 300px;
+	height: 42px;
+	padding: 0 18px;
+	border-radius: 2px;
+	border: 1px solid #d3d3d3;
+}
+.fontControl {
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+}
+.registration ul li.info label{
+	line-height: 16px;
+	font-weight:normal;
+	vertical-align: top;
+    display: inline-block;
+}
+.registration ul li.info input,.registration ul li.info textarea{
+	width: 683px;
+    height: 232px;
+    padding: 12px;
+    font-size: 14px;
+    display: block;
+}
+.registration ul li.info textarea{
+	resize:none;
+}
+.tvLink {
+    position: absolute;
+    top: -3px;
+    right: 37px;
+}
+.upload {
+    width: 331px;
+    padding: 66.5px 0;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #d3d3d3;
+}
+#userAvatar {
+	width: 331px;
+    height: 187px;
+    position: absolute;
+    top: 0;
+    left: 88px;
+    opacity: 0;
+}
+.alt_pic {
+	position: absolute;
+    bottom: -4px;
+    left: 386px;
+}
+#userAvatar2 {
+	width: 331px;
+    height: 187px;
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+	opacity: 0;
+}
+.show_item {
+	position: absolute;
+    top: 0;
+    left: 88px;
+    border-radius: 2px;
+}
+.alt_msg {
+    position: absolute;
+    left: 88px;
+}
+.alt_msg_con {
+	font-size: 12px;
+	color: #999;
+	line-height: 30px;
+}
+.item,.item .real_pic {
+    width: 331px;
+    height: 187px;
+    border-radius: 2px;
+}
+/* 输入框提示  */
+.compNameL {
+    width: 683px;
+    font-size: 12px;
+    line-height: 32px;
+    color: #999;
+    text-align: right;
+    padding: 0 10px;
+}
+.compNameL strong {
+	font-weight: normal;
+}
+/* 下一步 */
+.login-submit {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#btnLogin {
+    width: 330px;
+    height: 42px;
+    font-size: 16px;
+    color: #fff;
+    background: #33c69b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+}
+/* 提示报错  */
+.err_msg_tip {
+    color: #ff3514;
+    font-size: 12px;
+    line-height: 13px;
+    padding-left: 15px;
+    display: block;
+    visibility: hidden;
+    background: url(../../../file/zmiao/images/person/tipIcon.png) 0 1px no-repeat;
+}

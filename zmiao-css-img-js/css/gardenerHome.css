@@ -1,0 +1,240 @@
+.title{
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+}
+.title:after{
+    content: '';
+    display: block;
+    width: 92px;
+    height: 3px;
+    background: #27c79a;
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    margin-left: -46px;
+}
+.content{
+    padding-bottom: 150px;
+}
+.content__banner{
+	  min-width:1200px;
+      height: 180px;
+      background: url("../images/gardenerHome/teacher-banner.png") no-repeat center top 0px;
+      background-size:1920px 180px;
+
+}
+
+.gardener__Box .gardener--title{
+    line-height: 44px;
+    margin-top: 45px;
+    font-weight: normal;
+}
+.gardener__Box .gardener__Lists{
+    padding-top: 30px;
+}
+.gardener__Box .gardener--list{
+    width: 24%;
+    float: left;
+    border:1px solid #f1f1f1;
+    margin-right: 1.3%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.gardener__Box .gardener--list a>img{
+	width:100%;
+	height:161px;
+}
+.list-boxShadow{
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -ms-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+    -webkit-box-shadow:  0px 0px 5px 1px rgba(39,199,154,0.75);
+    -moz-box-shadow:  0px 0px 5px 1px rgba(39,199,154,0.75);
+    box-shadow:  0px 0px 5px 1px rgba(39,199,154,0.75);
+}
+.gardener__Box .gardener--list:nth-of-type(4),.gardener__Box .gardener--list:nth-of-type(8){
+    margin-right: 0;
+}
+
+.gardener__Box .gardener--list a .list__text__box .text--name{
+    font-size: 18px;
+    color: #333;
+    line-height: 25px;
+    height:30px;
+    margin-bottom:14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align:center;
+    position:relative;
+    padding-bottom:5px;
+}
+.gardener__Box .gardener--list a .list__text__box .text--name:after{
+	content:"";
+	display:block;
+	width:16px;
+	height:3px;
+	background:#fb664a;
+	position:absolute;
+	left:135px;
+/* 	margin-left:-8px; */
+	bottom:0px;
+}
+.gardener__Box .gardener--list a .list__text__box .text--partner,.gardener__Box .gardener--list a .list__text__box .text--company{
+    font-size: 14px;
+    color: #666;
+    line-height: 23px;
+    text-indent: 10px;
+    height:23px;
+    overflow:hidden;
+    /*文本不换行*/  
+    white-space: nowrap;  
+    /*文字超出用省略号*/  
+    text-overflow:ellipsis; 
+    text-align:center;
+}
+.gardener__Box .gardener--list a .list__text__box .text--company{
+    margin-bottom: 30px;
+    text-align:center;
+}
+.gardener__Box .gardener--list a .list__desc{
+	width:100%;
+    color: #fff;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 24px 12px 17px;
+    height: 145px;
+    background: rgba(39,199,154,1);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    text-overflow:ellipsis;
+    text-align: justify;
+    display:none;
+}
+/*瓒呭嚭閮ㄥ垎鏄剧ず鐪佺暐鍙�*/
+.gardener__Box .gardener--list a .list__desc p{
+    height: 100%;
+    line-height: 20px;
+    position: relative;
+    max-height: 80px;
+    overflow: hidden;
+    /*文字超出用省略号*/  
+    text-overflow:ellipsis;  
+    /*盒子模型*/  
+    display:-webkit-box;  
+    /*显示的文本行数*/  
+    -webkit-line-clamp:4;  
+     /*子元素的垂直排列方式*/  
+     -webkit-box-orient:vertical; 
+}
+/*瓒呭嚭閮ㄥ垎鏄剧ず鐪佺暐鍙�*/
+/* .gardener__Box .gardener--list .list__desc p::after{content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px  }
+ */
+.list__text__box{
+    background: #fff;
+    width: 100%;
+    height: 145px;
+    z-index: 20;
+    padding-top:30px;
+}
+.btn{
+    border:none;
+    outline: none;
+    background: none;
+
+}
+.btn-more-teacher{
+    display: block;
+    width: 156px;
+    height: 34px;
+    border:1px solid #27c79a;
+    -webkit-border-radius:17px;
+    -moz-border-radius:17px;
+    border-radius:17px;
+    margin: 10px auto 40px;
+    color: #27c79a;
+    font-size: 14px;
+}
+ .btn-more-teacher:hover{
+	border:none;
+	line-height:36px;
+	color:#fff;
+	background: -moz-linear-gradient(top, #2df7be 0%, #27c89a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2df7be), color-stop(100%,#27c89a));
+    background: -webkit-linear-gradient(top, #2df7be 0%,#27c89a 100%);
+    background: -o-linear-gradient(top, #2df7be 0%,#27c89a 100%);
+    background: -ms-linear-gradient(top, #2df7be 0%,#27c89a 100%);
+    background: linear-gradient(to bottom, #2df7be 0%,#27c89a 100%);
+
+} 
+/*鍒嗗壊绾�*/
+.line{
+    height: 0;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+}
+/*鏈�鏂板姪鍒涘ぉ浣�*/
+.angel__lists{
+    margin-top: 34px;
+}
+.angel--title{
+    font-weight: normal;
+    line-height: 42px;
+    margin-top: 40px;
+}
+.angel__lists .angel--list{
+    width: 8.333%;
+    float: left;
+    margin-right: 3%;
+}
+.angel__lists .angel--list:nth-last-of-type(1){
+    margin-right: 0;
+}
+.angel__lists .angel--list .angel__icon{
+    width: 100px;
+    height: 100px;
+    background: #d9d9d9;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.08);
+}
+.angel__lists .angel--list .angel__icon>img{
+	width:100%;
+	height:100%;
+}
+.angel__lists .angel--list .angel__text>.angel--name{
+    font-size: 16px;
+    color: #333;
+    line-height: 16px;
+    height:16px;
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.angel__lists .angel--list .angel__text>.angel--desc{
+    font-size: 12px;
+    color: #666;
+    line-height: 12px;
+    height: 12px;
+    position: relative;
+    overflow: hidden; 
+    margin-top: 10px;
+	 /*文本不换行*/  
+    white-space: nowrap;  
+    /*文字超出用省略号*/  
+    text-overflow:ellipsis;
+    text-align:center;
+}
+/*瓒呭嚭閮ㄥ垎鏄剧ず鐪佺暐鍙�*/
+/* .angel__lists .angel--list .angel__text>.angel--desc::after{content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px  } */

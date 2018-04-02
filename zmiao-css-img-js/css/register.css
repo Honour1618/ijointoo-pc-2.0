@@ -1,0 +1,100 @@
+/* 
+ *
+ *  壮苗系统-注册
+ * 
+ * * */
+ .content_wrap {
+ 	min-width: 1688px;
+	padding: 66px 0 218px;
+	background: url(../../../file/zmiao/images/login/deepBg.jpg) center center no-repeat;
+	background-size: 100% 100%;
+}
+.content {
+	width: 972px;
+	margin-top: 18px;
+	min-height: 312px;
+}
+.leftPic {
+	width: 357px;
+    margin: 49px 0 0 158px;
+}
+.regBox {
+	margin-right: 107px;
+	/* margin: 0px 30px;
+	padding: 26px 60px 100px;
+	background: url(../../../file/zmiao/images/register/registerBg.jpg) 0 0 no-repeat;
+	background-size: contain; */
+}
+.yzm {
+	position: relative;
+}
+.regTable input {
+	width: 253px;
+	height: 34px;
+	font-size: 14px;
+	color: #333;
+	border: 1px solid #ddd;
+	padding: 0 10px;
+}
+.tr_title {
+	padding-bottom: 16px;
+	text-align: center;
+}
+.tr_title h3 {
+	font-size: 18px;
+	font-weight: normal;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #27c79b;
+}
+.check_img,.yanZheng {
+	position: absolute;
+	top: 4px;
+	right: 28px;
+	cursor: pointer;
+}
+input.yanZheng {
+    top: 9px;
+    right: 1px;
+    border: 0;
+    width: 112px;
+    height: 16px;
+    line-height: 16px;
+    color: #ff3514;
+    font-size: 12px;
+    background: #fff;
+    text-align: center;
+    border-left: 1px solid #999;
+}
+#btnSendCodeTime {
+	display: none;
+}
+#btnReg {
+	color: #fff;
+	font-size: 16px;
+	background: #27c79b;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.err_msg_tip {
+	color: #ff3514;
+	font-size: 12px;
+	height: 20px;
+	padding-left: 15px;
+	display: block;
+	background: url(../../../file/zmiao/images/register/tipIcon.png) 0 3px no-repeat;
+	visibility: hidden;
+}
+.toLogin {
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+ }
+.toLogin p {
+	margin-top: 10px;
+}
+.toLogin a {
+	color: #27c79b;
+}
+.tip_show {
+	visibility: inherit;
+}

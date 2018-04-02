@@ -1,0 +1,306 @@
+.content{
+    background: #edf0f2;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+.tab__window{
+	position:relative;
+}
+.proStatic{
+	position:absolute;
+	right:120px;
+	top:107px;
+	width:88px;
+	height:61px;
+}
+.content .inner>.fl{
+    background: #fff;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.content .inner>.fl{
+    width: 256px;
+    height: 615px;
+}
+.content .inner>.fr{
+    width: 926px;
+
+}
+.content .inner>.fl .tab{
+    line-height: 60px;
+    text-align: center;
+}
+.content .inner>.fl .user__logo{
+    width: 74px;
+    height: 74px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: #e1e1e1;
+    margin: 34px auto 0;
+    overflow: hidden;
+    -webkit-box-shadow: 3px 5px 5px #e1e1e1;
+    -moz-box-shadow: 3px 5px 5px #e1e1e1;
+    box-shadow: 3px 5px 5px #e1e1e1;
+}
+.fdjg{
+	position:absolute;
+	right:100px;
+	top:300px;
+}
+.content .inner>.fl .user__name{
+    line-height: 43px;
+    margin-top: 4px;
+}
+.content .inner>.fl .user__static{
+    padding: 11px 0;
+}
+.user__name,.user__static{
+    text-align: center;
+}
+.content .inner>.fl .user__static img{
+    margin-right: 22px;
+}
+.content .inner>.fl .user__static img:nth-last-of-type(1){
+    margin-right: 0px;
+}
+.tab:hover{
+    cursor: pointer;
+}
+.tab .tab__title{
+    font-size: 16px;
+    color: #666;
+}
+.tab .tab__title.active{
+    background: #33c69b;
+    color: #fff;
+}
+.tabs__two{
+    display: none;
+    padding: 5px 0 20px;
+}
+.tabs__two .tab__two{
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 44px;
+    color: #666;
+}
+.tabs__two .tab__two.active{
+    color: #33c69b;
+}
+.tabs__two .tab__two:hover{
+    color: #33c69b;
+}
+.tab__window .tab__list{
+    display: none;
+}
+.tab__window .tab__list.active{
+    display: block;
+}
+/*我的任务样式*/
+.rightBox{
+    background: #fff;
+}
+.mytask{
+    padding:53px 70px;
+    background:#fff;
+    min-height:615px;
+}
+.mytask h3{
+    font-size: 16px;
+    color: #333;
+    line-height: 44px;
+    height: 44px;
+    position: relative;
+}
+.mytask h3:after{
+    content: "";
+    display: block;
+    background: #f96650;
+    width: 70px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.task__top{
+    margin-top: 17px;
+}
+
+.task__top dd,.task__top dt{
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+}
+.task__top dd span,.task__top dt span{
+    color: #333;
+    margin-left: 6px;
+}
+.task__top dt{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+.question{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    position: relative;
+    background:url("../images/myTask/myrwbg.jpg") no-repeat left 0 top 0;
+    background-size: 13px 13px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 10px !important;
+    color: #fff !important;
+    line-height: 13px;
+    text-align: center;
+    vertical-align: middle;
+}
+.question:hover{
+    cursor: pointer;
+}
+.fdjd{
+    position: relative;
+}
+.closeBtn:hover{
+    cursor: pointer;
+}
+.fdjd .quesWindow{
+    display: none;
+    position: absolute;
+    top:-28px;
+    left: 30px;
+    height: 86px;
+    width: 234px;
+    border: 1px solid #415573;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+.quesBox{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 10px 14px;
+
+}
+.quesBox p{
+    line-height: 16px;
+    font-size: 12px;
+    color: #526480;
+    text-align: justify;
+}
+.quesBox:after{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 14px;
+    background: url("../images/myTask/leftJt.png") no-repeat left 0 top 0;
+    background-size: 8px 14px;
+    position: absolute;
+    left: -8px;
+    top:35px;
+}
+.closeBtn{
+    display: block;
+    width: 14px;
+    height: 14px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    border-radius:7px;
+    background: url("../images/myTask/cha.png") no-repeat left 0 top 0;
+    background-size: 14px 14px;
+    position: absolute;
+    right: -7px;
+    top:-7px;
+    margin-left: 0;
+}
+.task__bottom{
+    margin-top: 45px;
+}
+.task__bottom h4{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+.task__bottom dd{
+    padding-left: 24px;
+    margin-top: 8px;
+}
+.task__bottom dd span{
+    display: block;
+    float: left;
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+}
+.task__bottom dd .imgBox{
+    float: left;
+    width: 270px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.task__bottom dd .imgBox img{
+    width: 100%;
+}
+.task__bottom dd p{
+    float: right;
+    width: 686px;
+    color: #333;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.task__bottom dl{
+    position: relative;
+    padding-bottom: 48px;
+}
+.task__bottom dl dd{
+    background: url("../images/myTask/yuanli.png") no-repeat left 4px top 8px;
+    background-size: 7px 7px;
+    margin-top: 8px;
+}
+.task__bottom dl:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    border-left: 1px dashed #eee;
+    left: 7px;
+    top:17px;
+}
+.task__bottom dl:nth-last-of-type(1):after{
+    height:80%;
+}
+.task__bottom dl dd a{
+    color: #28c89a !important;
+    font-size: 14px !important;
+}
+.qesReletive{
+	display:inline-block;
+	position:relative;
+}
+.task__bottom dl  .logIcon{
+    background: url("../images/myTask/yuan.png") no-repeat left 2px top 5px;
+    background-size: 12px 12px;
+}
+.layer{
+	padding:13px 42px;
+	color:#ffffff;
+	font-size:16px;
+	position:absolute;
+	left:50%;
+	top:300px;
+	text-align: center;
+	margin-left:-203px;
+	width:406px;
+	height:74px;
+	background:rgba(0,0,0,.6);
+	display:none;
+}

@@ -1,0 +1,28 @@
+/* 
+ *
+ *  壮苗系统-errorPage
+ * 
+ * * */
+ 
+.content {
+	text-align:center;
+	padding:100px 0 180px;
+	font-size:16px;
+	color:#666;
+}
+.msg_tip{
+	margin-top:100px;
+}
+.error_tip {
+	
+}
+.goHome{
+	display: inline-block;
+	width:160px;
+	height:42px;
+	margin:30px 0;
+	line-height:42px;
+	border-radius:21px;
+	color:#fff;
+	background:#27c79b;
+}

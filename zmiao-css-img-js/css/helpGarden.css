@@ -1,0 +1,358 @@
+.content{
+    padding-bottom: 115px;
+    background: #fff;
+}
+.content__banner{
+	min-width:1200px;
+    height: 180px;
+    background: url("../images/helpGarden/helpGardenBg.jpg") no-repeat center top 0px;
+    background-size:1920px 180px;
+}
+.content__banner img{
+    width: 1920px;
+}
+/*绛涢�夋潯浠�*/
+.screen__box{
+    padding: 15px 20px;
+    background: #fff;
+    margin-top: 20px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.screen__box>div:nth-of-type(1),.screen__box>div:nth-of-type(2){
+    line-height: 42px;
+    height: 42px;
+}
+.screen__box .screen--title{
+    width: 6.3333%;
+    float: left;
+    color: #333;
+    font-size: 12px;
+    text-align: left;
+    line-height:42px;
+}
+.screen__box .screen--term{
+    width: 92%;
+    float: left;
+    line-height: 42px;
+    height: 42px;
+    overflow:hidden;
+}
+.screen__box .screen__region{
+	position:relative;
+}
+.screen--term .screen--list{
+    padding: 0 16px;
+    float: left;
+    line-height: 24px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    border-radius:12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #333;
+    font-size: 12px;
+
+}
+.screen--term .screen--list:nth-of-type(16n+0){
+	margin-right:0;
+}
+.screen--list:hover{
+    cursor: pointer;
+    color:#27c79b;
+}
+
+.screen--term  .active{
+    color: #fff;
+    background: #27c79a;
+}
+.zd-btn{
+	position:absolute;
+	width:15px;
+	height:15px;
+	background: url("../images/helpGarden/jt.png") no-repeat left 0px top 0px;
+	right:0px;
+	top:16px;
+}
+.zd-btn2{
+	background-position:left 0 top -23px;
+}
+/*鎺掑簭*/
+.sort__box{
+    padding:0 20px;
+    height: 44px;
+    font-size: 12px;
+    color: #333;
+}
+.sort__box .sort__left{
+    width: 6.333%;
+    float: left;
+    line-height: 44px;
+    text-align: left;
+
+}
+.sort__box .sort__right{
+    width:93.4%;
+    float: left;
+    line-height: 44px;
+}
+.sort--sty{
+	width:15px;
+	height:15px;
+	margin-left:6px;
+	background: url("../images/helpGarden/jt.png") no-repeat left 3px top -54px;
+
+}
+#sort__btn{
+		display:inline-block;
+}
+#sort__btn:hover{
+	    cursor: pointer;
+}
+.sort--sty2{
+	background-position:left 3px top -39px;
+}
+/*鎼滅储鍒楄〃*/
+.product__Box{
+    background: #fff;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.product__Box .product--title>div{
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
+.product__Box .product--title{
+    border-bottom: 1px solid #eeeeee;
+
+}
+.product__Box .product--title .title--desc{
+    width: 30.5%;
+    float: left;
+    padding: 0 20px;
+}
+.product__Box .product--title .title--industry{
+    width: 26%;
+    float: left;
+    padding: 0 20px;
+}
+.product__Box .product--title .title--term{
+    width: 23.5%;
+    float: left;
+    padding: 0 20px;
+}
+.product__Box .product--title .title--static{
+    width: 20%;
+    float: left;
+    padding: 0 20px;
+    text-align:center;
+}
+.product__Box .product__lists{
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.product__lists .list{
+    height: 96px;
+    border-bottom: 1px solid #eee;
+}
+.product__lists .list .list__static{
+	text-align:center;
+	padding:18px  20px;
+}
+.product__lists .list .list__static img{
+	vertical-align:middle;
+}
+.product__lists .list:hover{
+    background: #f6f6f6;
+}
+.product__lists .list a>div:nth-of-type(1){
+    width: 30.5%;
+    float: left;
+}
+.product__lists .list a>div:nth-of-type(2){
+    width: 26%;
+    float: left;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+}
+.product__lists .list a>div:nth-of-type(3){
+    width: 23.5%;
+    float: left;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+}
+.product__lists .list a>div:nth-of-type(4){
+    width: 20%;
+    float: left;
+}
+.product__lists .list a>div{
+    height:100%;
+    padding: 25px 20px;
+}
+.product__lists .list .list__desc .desc--left{
+    width: 44px;
+    float:left ;
+    height: 44px;
+    font-size:12px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    overflow:hidden;
+}
+.product__lists .list .list__desc .desc--left img{
+    width: 100%;
+    height: 100%;
+}
+.product__lists .list .list__desc .desc--right{
+    width: 282px;
+    float:left ;
+    height: 44px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.product__lists .list .list__desc .desc--right .desc--name{
+    font-size: 16px;
+    color: #333;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.product__lists .list .list__desc .desc--right .desc--desc{
+    font-size: 12px;
+    color: #666;
+    line-height: 12px;
+    height:12px;
+    overflow: hidden;
+    padding-left:18px;
+    background: url("../images/helpGarden/help__desc__icon.png") no-repeat left 0px top 2px;
+    background-size:12px 10px;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------page */
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.pager {
+	max-width: 800px;
+	text-align: center;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.pager a{
+	cursor: pointer;
+}
+.pager a,
+.pager span {
+  	width: 29px;
+    height: 28px;
+    border: 1px #cccccc solid;
+    margin-left: -1px;
+    color: #8a8a8a;
+    display: inline-block;
+    line-height: 28px;
+    float: left;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 2px;
+}
+.pager a:hover,
+.pager span:hover {
+	border-color: #3897cd;
+	color: #3897cd;
+	position: relative;
+	z-index: 1;
+}
+.pager span.current {
+	background-color: #3897cd;
+	color: #fff;
+	border-color: #3897cd;
+	position: relative;
+	z-index: 1;
+}
+.pager .pg-first,
+.pager .pg-prev,
+.pager .pg-next,
+.pager .pg-last{
+	background: url(images/page_bg.jpg) 0 0 no-repeat;
+}
+.pager .pg-first:hover,
+.pager .pg-prev:hover,
+.pager .pg-next:hover,
+.pager .pg-last:hover{
+	background: url(images/page_bg_hover.jpg) 0 0 no-repeat;
+}
+.pager .pg-prev,
+.pager .pg-prev:hover{
+	background-position: 0 -28px;
+}
+.pager .pg-next,
+.pager .pg-next:hover{
+	background-position: -29px -28px;
+}
+.pager .pg-last,
+.pager .pg-last:hover{
+	background-position: -29px 0;
+}
+.pager .pg-prev[disabled='true'],
+.pager .pg-prev[disabled='true']:hover{
+	cursor: default;
+	background-image: url(images/page_bg.jpg);
+}
+.pager .pg-next[disabled='true'],
+.pager .pg-next[disabled='true']:hover{
+	cursor: default;
+	background-image: url(images/page_bg.jpg);
+}
+.pager .pg-prev[disabled='true'],
+.pager .pg-next[disabled='true']{
+	border-color: #eeeeee;
+}
+.pager span.els{
+	border-color: transparent;
+}
+
+.pagerHtmlWrap{
+	width: 800px;
+	margin: 30px auto;
+}
+.pagerHtmlWrap .cc_cells{
+	width: 100%;
+	height: 35px;
+	padding: 5px 0;
+	border-bottom: 1px #cccccc solid;
+}
+.pagerHtmlWrap .cc_cells a{
+	color: #454545;
+	font-size: 14px;
+	line-height: 35px;
+	text-decoration: none;
+}
+.pagerHtmlWrap .cc_cells a span{
+	display: inline-block;
+	width: 25%;
+	text-align: left; 
+	margin: 0;
+}
+.pageNav {
+	background: #fff;
+}

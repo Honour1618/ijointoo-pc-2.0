@@ -1,0 +1,281 @@
+/* 
+ * 个人中心 ~ 我的项目 
+ *
+ */
+ 
+.body_color {
+	background: #edf0f2;
+	padding-top: 20px;
+ }
+.inner .person_left {
+    margin-bottom: 116px;
+    height: 615px;
+}
+.item_wrap {
+	background: #fff;
+    padding: 0px 50px 20px;
+}
+.item_content {
+	padding-top: 50px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.item_content:last-child {
+	border: none;
+}
+.content {
+    width: 926px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 116px;
+}
+.item_top {
+	margin-bottom: 60px;
+}
+.item_logo {
+	width: 88px;
+	height: 88px;
+	border-radius:4px;
+    margin-right: 15px;
+	border: 1px solid rgba(0,0,0,0.08);
+}
+.item_top h2,.item_top p {
+	font-weight: normal;
+	display: inline-block;
+}
+.item_top h2 {
+	float: left;
+	padding-top: 10px;
+}
+.item_top h2 a,.item_top h2 i {
+    color: #333;
+    font-size: 18px;
+}
+.item_top h2 i {
+	font-style: normal;
+}
+.item_top h2 p {
+	font-size: 12px;
+    color: #999;
+}
+.item_statu {
+    width: 110px;
+    height: 59px;
+    margin-left: 63px;
+    margin-top: 12px;
+    vertical-align: text-bottom;
+}
+.item_qrcode p {
+	color: #666;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+p.mrN6 {
+	margin-right: 0px;
+}
+.qrcode {
+	display: none;
+}
+.item_btm {
+	padding-bottom: 65px;
+}
+.item_btm li {
+	width: 20%;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.item_btm li strong {
+	font-weight: normal;
+	color: #333;
+	font-size: 22px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.btn,.btn_start {
+	text-align: center;
+	padding-bottom: 45px;
+}
+.btn a {
+    width: 191px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 42px;
+    border-radius: 3px;
+    background: #33c69b;
+	display: inline-block;
+}
+.btn_start a,.btn_start span {
+	display: inline-block;
+	width: 191px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	margin: 0 15px;
+	border: 1px solid #33c69b;
+	cursor: pointer;
+}
+.btn_start a {
+	color: #33c69b;
+}
+.btn_start span {
+	color: #fff;
+	background: #33c69b;
+}
+.more_item {
+	text-align: center;
+	padding-bottom: 40px;
+	background: #fff;
+}
+.more_item button {
+	color: #333;
+	border: none;
+	height: 49px;
+	outline: none;
+	background: none;
+	font-size: 12px;
+	background: url("../../../file/zmiao/images/myAssist/more__bottom.png") no-repeat center bottom 0;
+    background-size: 18px 10px;
+}
+.more_item button.active{
+    background: url("../../../file/zmiao/images/myAssist/more__top.png") no-repeat center bottom 0;
+}
+/* 发起任务弹窗   */
+.mission_pop {
+    width: 550px;
+    border-radius: 5px;
+    padding: 30px 70px;
+    position: fixed;
+    left: 50%;
+    top: 13%;
+    z-index: 9;
+    max-height: 500px;
+    overflow-y: scroll;
+    margin-left: -335px;
+    background: #fff;
+    color: #333;
+    display: none;
+}
+.mission_pop h2 {
+	font-size: 16px;
+	font-weight: normal;
+}
+.mission_pop ul {
+	margin: 10px 0;
+}
+.mission_pop li {
+	display: inline-block;
+	font-size: 14px;
+	padding: 4px 9px;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+	border: 1px solid #d3d3d3;
+}
+.mission_pop li.active {
+	color: #fff;
+	background: #33c69b;
+	border: 1px solid #33c69b;
+}
+.color_sign {
+    width: 3px;
+    height: 12px;
+    float: left;
+    margin-top: 2px;
+    background: #33c69b;
+}
+.mission_pop p {
+	color: #666;
+	font-size: 12px;
+	padding-left: 8px;
+}
+.return_Amt li {
+	padding: 4px 12px;
+}
+.mission_return {
+	margin-top: 20px;
+}
+.mission_return strong {
+	font-weight: normal;
+}
+.comfirm_btn {
+	text-align: center;
+	margin-top: 20px;
+}
+.comfirm_btn button {
+    display: inline-block;
+    width: 191px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    margin: 0 15px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #33c69b;
+    cursor: pointer;
+}
+.restart {
+	font-size: 12px;
+}
+.restart strong {
+	color: #33c69b;
+	font-weight: normal;
+}
+.mission_mask {
+	width: 100%;
+	height: 1000%;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	display: none;
+}
+/* 发起新项目  */
+.startNewPrj {
+	background: #fff;
+	text-align: center;
+	padding: 50px 0;
+	border-top: 20px solid #edf0f2;
+}
+/* 没有项目时  */
+.nonePrj {
+	padding: 234px 0 280px;
+	text-align: center;
+	font-size: 12px;
+	background: #fff;
+	color: #999;
+}
+.nonePrj a,.startNewPrj a {
+	color: #fff;
+	width: 182px;
+	height: 42px;
+	font-size: 16px;
+	margin-top: 40px;
+	border-radius: 3px;
+	line-height: 42px;
+	background: #33c69b;
+	display: inline-block;
+}
+.startNewPrj a {
+	margin: 0;
+}
+.close_icon {
+	width: 36px;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+footer .inner {
+	height: auto;
+}
+
+

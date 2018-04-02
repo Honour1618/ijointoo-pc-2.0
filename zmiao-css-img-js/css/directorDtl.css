@@ -1,0 +1,314 @@
+/* 
+ *
+ *  壮苗系统-导师详情
+ * 
+ * * */
+ 
+body {
+	color: #333;
+	background: #edf0f2;
+}
+.content {
+	margin-bottom: 90px;
+}
+.noneLocal {
+	color: rgba(255,255,255,.4);
+}
+.noneInfo {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	padding: 80px 0 100px;
+}
+.region .noneBrief {
+	color: #999;
+	font-size: 12px;
+}
+.briefInfo {
+	min-width: 1200px;
+	height: 356px;
+	position: relative;
+	margin-bottom: 20px;
+	background: url(../../../file/zmiao/images/directorDtl/directorInfo.jpg) center no-repeat;
+}
+.brief {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+ 	text-align: center;
+	position: absolute;
+	top: 66px;
+}
+.brief .briefLogo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+.brief h3 {
+	font-size: 24px;
+	line-height: 45px;
+	font-weight: normal;
+}
+.briefLevel {
+    vertical-align: initial;
+    width: 20px;
+    margin-left: 10px;
+}
+.brief button {
+	border: 0;
+	color: #fff;
+	width: 131px;
+	height: 42px;
+	margin: 20px 0;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background:url(../../../file/zmiao/images/directorDtl/focusPlus.png);
+}
+/* .focusPlus {
+	background: -webkit-linear-gradient(#33fbc3, #27c79a); Safari 5.1 - 6.0
+	background: -o-linear-gradient(#33fbc3, #27c79a); Opera 11.1 - 12.0
+	background: -moz-linear-gradient(#33fbc3, #27c79a); Firefox 3.6 - 15
+	background: linear-gradient(#33fbc3, #27c79a); 标准的语法
+} */
+button.focusMinus {
+	background:url(../../../file/zmiao/images/directorDtl/focusMinus.png);
+}
+.brief h3>strong {
+    font-weight: normal;
+    margin-left: 30px;
+}
+/* 导师成就 */
+.contentL {
+	width: 807px;
+}
+.contentL>div,.contentR>div {
+	font-size: 14px;
+	border-radius: 5px;
+	background: #fff;
+	padding: 10px 20px 20px;
+}
+.contentR>div {
+	padding: 15px 20px;
+}
+.contentL h3 {
+    line-height: 40px;
+	font-size: 18px;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+.contentL li {
+	padding: 20px 0;
+}
+/* 过往案例 */
+.backCase {
+	margin-bottom: 10px;
+}
+.backCase h3 {
+	background: url("../../../file/zmiao/images/directorDtl/title_one.png") left 0 bottom 3px no-repeat;
+}
+.backCase li,.helpItem li,.comment li,.region li {
+	border-bottom: 1px solid #eee;
+}
+.backCase li:last-child,.helpItem li:last-child,.comment li:last-child,.region li:last-child {
+	border: none;
+}
+.backCase img {
+	width: 90px;
+	border-radius: 5px;
+    margin-right: 20px;
+}
+.caseInfo h4,.itemIn h4,.commentor h4 {
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+.caseInfo p {
+	line-height: 20px;
+	padding-left: 110px;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+
+/* 辅导过的项目 */
+.helpItem {
+	margin-bottom: 10px;
+}
+.helpItem a {
+	color: #333;
+	display: block;
+}
+.helpItem h3 {
+	    background: url("../../../file/zmiao/images/directorDtl/title_two.png") left 0 bottom 3px no-repeat;
+}
+.helpItem li{
+	padding-bottom: 0;
+}
+.itemIn {
+	width: 666px;
+}
+.itemIn span {
+	color: #666;
+	font-size: 12px;
+}
+span.helpTime{
+	margin-left: 10px;
+}
+.itemIn li {
+	padding: 10px 0;
+}
+.itemIn p {
+	line-height: 20px;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+.service {
+	display: inline-block;
+	width: 608px;
+	padding-top: 1px;
+ 	padding-left: 10px;
+}
+.service span {
+	display: inline-block;
+	width: 14px;
+	height: 13px;
+	background: url(../../../file/zmiao/images/directorDtl/star_gray.jpg) no-repeat;
+	background-size: 14px 12px;
+}
+.service span i {
+	display: inline-block;
+	width: 0;
+	height: 13px;
+	background: url(../../../file/zmiao/images/directorDtl/star_bling.jpg) 0 -1px no-repeat;
+}
+.service p {
+	font-size: 12px;
+	color: #666;
+	line-height: 17px;
+}
+.startItem {
+	width: 91px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.startItem img,.comment img {
+	width: 52px;
+	height: 52px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.startItem span {
+	color: #666;
+	margin-top: 3px;
+	display: inline-block;
+	font-weight: normal;
+}
+/* 评论 */
+.comment {
+	margin-bottom: 40px;
+}
+.comment h3 {
+	    background: url("../../../file/zmiao/images/directorDtl/title_three.png") left 0 bottom 3px no-repeat;
+}
+.comment button {
+	width: 157px;
+	height: 36px;
+	background: 0;
+	display: block;
+ 	margin: 10px auto;
+	color: #27c79a;
+	font-size: 12px;
+	outline: none;
+	border-radius: 18px;
+	border: 1px solid #27c79a;
+	cursor: pointer;
+}
+.contentR {
+	width: 376px;
+}
+.commentor {
+	width: 702px;
+}
+.commentor span {
+	color: #666;
+	font-size: 12px;
+}
+.commentor p {
+	color: #666;
+}
+.commentor p img {
+	width: 16px;
+	height: 16px;
+	vertical-align: -webkit-baseline-middle;
+}
+button.loadingPic {
+	width:156px;
+	height:95px;
+	background:url(../../../file/zmiao/images/directorDtl/loading.jpg) no-repeat;
+	background-size:cover;
+	border-radius:5px;
+	margin:auto;
+	display:none;
+}
+
+/* 右边简介 */
+.focus {
+	margin-bottom: 20px;
+}
+.focus span {
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+}
+.focus strong {
+	font-weight: normal;
+	color: #fb664a;
+	font-size: 18px;
+}
+.region li {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 0;
+ 			border-bottom: 1px solid #eee;
+}
+.region label {
+	padding-left: 20px;
+	vertical-align: top;
+	background: url(../../../file/zmiao/images/directorDtl/dtl_icon.png) no-repeat;
+}
+.region li:nth-child(1) label {
+	background-position: 0px 3px;
+}
+.region li:nth-child(2) label {
+	background-position: 0px -16px;
+}
+.region li:nth-child(3) label {
+	background-position: 0px -35px;
+}
+.region li:nth-child(4) label {
+	background-position: 0px -55px;
+}
+.region li:nth-child(5) label {
+	background-position: 0px -74px;
+}
+.region p {
+	width: 241px;
+ 	text-align: justify;
+ 	display: inline-block;
+ 	letter-spacing: 1px;
+}
+.region p>i {
+    float: left;
+    margin: 3px 4px 3px 0;
+    display: block;
+    height: 13px;
+    line-height: 13px;
+    font-style: normal;
+    padding-right: 4px;
+    border-right: 2px solid #999;
+} 
+.region p>i:last-child{
+	border: none;
+}

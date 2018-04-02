@@ -1,0 +1,213 @@
+/* 
+ *
+ *  壮苗系统-天使详情
+ * 
+ * * */
+ 
+body {
+	color: #333;
+	background: #edf0f2;
+}
+.content {
+	margin-bottom: 130px;
+}
+.noneLocal {
+	color: rgba(255,255,255,.4);
+}
+.noneInfo {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	padding: 80px 0 100px;
+}
+.region .noneBrief {
+	color: #999;
+	font-size: 12px;
+}
+.briefInfo {
+	min-width: 1200px;
+	height: 356px;
+	position: relative;
+	margin-bottom: 20px;
+	background: url(../../../file/zmiao/images/directorDtl/directorInfo.jpg) center no-repeat;
+}
+.brief {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+ 	text-align: center;
+	position: absolute;
+	top: 66px;
+}
+.brief .briefLogo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+.brief h3 {
+	font-size: 24px;
+	line-height: 45px;
+	font-weight: normal;
+}
+.brief button {
+	border: 0;
+	color: #fff;
+	width: 131px;
+	height: 42px;
+	margin: 20px 0;
+	outline: none;
+	border-radius: 5px;
+	background:url(../../../file/zmiao/images/directorDtl/focusPlus.png);
+/* 	background: -webkit-linear-gradient(#33fbc3, #27c79a); Safari 5.1 - 6.0
+	background: -o-linear-gradient(#33fbc3, #27c79a); Opera 11.1 - 12.0
+	background: -moz-linear-gradient(#33fbc3, #27c79a); Firefox 3.6 - 15
+	background: linear-gradient(#33fbc3, #27c79a); 标准的语法 */
+}
+button.focusMinus {
+	background:url(../../../file/zmiao/images/directorDtl/focusMinus.png);
+}
+/* 导师成就 */
+.contentL {
+	width: 807px;
+}
+.contentL>div,.contentR>div {
+	font-size: 14px;
+	border-radius: 5px;
+	background: #fff;
+	padding: 10px 20px 20px;
+}
+.contentL li {
+	padding: 20px 0;
+}
+.helpItem li,.region li {
+	border-bottom: 1px solid #eee;
+}
+.helpItem li:last-child,.region li:last-child {
+	border: none;
+}
+
+/* 资助过的项目 */
+.helpItem {
+	margin-bottom: 10px;
+}
+.helpItem h3 {
+	line-height: 40px;
+	font-size: 18px;
+	padding-bottom: 10px;
+	font-weight: normal;
+	background: url("../../../file/zmiao/images/directorDtl/title_one.png") left 0 bottom 3px no-repeat;
+}
+.helpItem li{
+	padding-bottom: 0;
+}
+.helpItem a {
+	display: block;
+}
+.itemIn {
+	width: 666px;
+}
+.itemIn h4 {
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+.itemIn span {
+	color: #666;
+	font-size: 12px;
+}
+span.helpTime{
+	margin-left: 10px;
+}
+.itemIn p {
+	line-height: 20px;
+    letter-spacing: 1px;
+	text-align: justify;
+}
+.itemIn li {
+	border: 0;
+	width: 130px;
+	color: #666;
+	font-size: 12px;
+	padding: 10px 0;
+}
+.itemIn li strong {
+	color: #fb664a;
+	font-weight: normal;
+}
+.startItem {
+	width: 91px;
+	text-align: center;
+}
+.startItem img,.comment img {
+	width: 52px;
+	height: 52px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+}
+.startItem h5 {
+	font-weight: normal;
+}
+.startItem span {
+	color: #666;
+	margin: 3px 0 10px;
+	display: inline-block;
+	font-weight: normal;
+}
+
+/* 右边简介 */
+.contentR {
+	width: 376px;
+}
+.focus {
+	margin-bottom: 20px;
+}
+.focus span {
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+}
+.focus strong {
+	font-weight: normal;
+	color: #fb664a;
+	font-size: 18px;
+}
+.region li {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 0;
+ 			border-bottom: 1px solid #eee;
+}
+.region label {
+	padding-left: 20px;
+	vertical-align: top;
+	background: url(../../../file/zmiao/images/directorDtl/dtl_icon.png) no-repeat;
+}
+.region li:nth-child(1) label {
+	background-position: 0px 3px;
+}
+.region li:nth-child(2) label {
+	background-position: 0px -14px;
+}
+.region li:nth-child(3) label {
+	background-position: 0px -35px;
+}
+.region p {
+	width: 241px;
+    letter-spacing: 1px;
+	text-align: justify;
+	display: inline-block;
+}
+.region p>i {
+    float: left;
+    margin: 3px 4px 3px 0;
+    display: block;
+    height: 13px;
+    line-height: 13px;
+    font-style: normal;
+    padding-right: 4px;
+    border-right: 2px solid #999;
+} 
+.region p>i:last-child{
+	border: none;
+}

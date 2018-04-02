@@ -1,0 +1,52 @@
+/*
+ * 壮苗系统-关于我们
+ *
+ * */
+ 
+ body {
+ 	background: #fff;
+ }
+ .about_banner {
+ 	min-width: 1200px;
+ 	height: 182px;
+ 	background: url(../../../file/zmiao/images/about/about_banner.png);
+ }
+ .content {
+ 	margin-top: 18px;
+ 	padding: 0 46px;
+ 	background: #fff;
+ 	font-size: 14px;
+ 	line-height: 34px;
+ 	color: #333;
+ }
+ .wrap{
+ 	padding-top: 80px;
+ }
+ /* 公司简介 */
+ .company_brief,.contact_us {
+ 	border-top: 1px solid #eee;
+ 	padding-top: 50px;
+ 	position: relative;
+ }
+ .company_brief>p {
+	width: 804px;
+    text-indent: 2em;
+}
+ .company_brief strong {
+ 	color: #f96616;
+ 	font-weight: normal;
+ }
+ .about01,.about02 {
+ 	position: absolute;
+ 	top: -80px;
+ 	right: 0px;
+ }
+ .about02 {
+ 	left: 0px;
+ }
+ .contact_way {
+ 	padding: 0 0 110px 316px;
+ }
+ .contact_way>img {
+ 	margin-bottom: 20px;
+ }
